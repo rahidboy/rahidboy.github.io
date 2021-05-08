@@ -5,6 +5,9 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
+    <!-- Favico -->
+    <link rel="icon" type="image/png" href="img/favico.png" />
+
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous" />
 
@@ -14,29 +17,35 @@
     <!-- my css -->
     <link rel="stylesheet" href="style.css" />
 
-    <title>Portfolio | ART - Al Rizky Tamhida</title>
+    <title>Al Rizky Tamhida</title>
   </head>
   <body id="home">
     <!-- Navbar -->
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary shadow-sm">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark shadow-sm" style="background-color: #409dcb">
       <div class="container">
-        <a class="navbar-brand" href="#">Al-Rizky Tamhida</a>
+        <div class="row text-start">
+          <div class="col">
+            <a class="navbar-brand fs-3 fw-bold" href="#"> <img src="img/favico.png" alt="" width="50" height="50" class="d-inline-block align-text-bottom" /> Al Rizky Tamhida </a>
+            <p class="text-white">General Trading, Supplier, Electrical & Mechanical, Security System</p>
+          </div>
+        </div>
+
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+              <a class="nav-link active" aria-current="page" href="#home">Beranda</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#about">About</a>
+              <a class="nav-link" href="#about">Sejarah</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#projects">Projects</a>
+              <a class="nav-link" href="#projects">Proyek</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
+              <a class="nav-link" href="#contact">Hubungi Kami</a>
             </li>
           </ul>
         </div>
@@ -45,9 +54,12 @@
     <!-- Ahkir Navar -->
     <!-- Jumbotron -->
     <section class="jumbotron text-center">
-      <img src="img/singbg.jpg" alt="Al-Rizky Tamhida" width="200" class="rounded-circle img-thumbnail" />
-      <h1 class="display-4">Al-Rizky Tamhida</h1>
-      <p class="lead">General Supplier and IT Solutions</p>
+      <!-- <img src="img/singbg.jpg" alt="Al-Rizky Tamhida" width="200" class="rounded-circle img-thumbnail" /> -->
+      <div class="container text-start">
+        <img src="img/banner.png" class="img-fluid" alt="Al-Rizky Tamhida" />
+        <h4 style="font-weight: 600; color: #409dcb">Selamat Datang di website kami,</h4>
+        <p style="font-size: x-large">Perusahaan kami telah kerja sama dengan berbagai pihak dari perusahaan swasta maupun instansi pemerintah pada berbagai bidang pekerjaan sesuai dengan keahlian perusahaan kami.</p>
+      </div>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="#ffffff"
@@ -61,17 +73,25 @@
     <!-- About -->
     <section id="about">
       <div class="container">
-        <div class="row text-center">
-          <div class="col mb-5">
-            <h2>About Us</h2>
+        <div class="row text-center mb-3 mt-5">
+          <div class="row text-center mb-3 mt-5">
+            <h2>Sejarah</h2>
           </div>
         </div>
-        <div class="row justify-content-center fs-2 text-center">
-          <div class="col-md-4">
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt, rerum eius similique reiciendis suscipit harum corrupti expedita eligendi sit illum.</p>
+        <div class="row justify-content-center fs-2">
+          <div class="col-md-6">
+            <p class="p1" style="text-align: justify; padding-left: 1rem; padding-right: 1rem; font-size: x-large">
+              <b>CV. AL RIZKY TAMHIDA</b> adalah perusahan yang bergerak dibidang perdagangan umum, pengadaan barang dan jasa, pemasangan instalasi listrik, pengadaan komputer dan suku cadang komputer, mekanikal dan elektrikal. Didirikan
+              pada tanggal 17-10-2013 dan beralamat di kota serang. CV. AL RIZKY TAMHIDA berbadan hukum resmi yang bergerak dalam bidang penyedia pengadaan barang dan jasa. Pada awal berdirinya CV. AL RIZKY TAMHIDA menyediakan pengadaan
+              barang dan jasa, instalasi CCTV dan security system pada perusahaan – perusahaan swasta.
+            </p>
           </div>
-          <div class="col-md-4">
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat ad facilis modi rerum! Sit quidem cum dolore vitae? Tempora odit distinctio reprehenderit voluptatem quos animi.</p>
+
+          <div class="col-md-6">
+            <p class="p1" style="text-align: justify; padding-left: 1rem; padding-right: 1rem; font-size: x-large">
+              Namun dengan seiring waktu perusahaan kami mulai mengembangkan dan ekspansi usaha pada bidang perdagangan umum, pengadaan komputer dan suku cadang komputer, pemasangan instalasi listrik, pemasangan jaringan internet,
+              pemasangan CCTV, Akses pintu, finger print, pemasangan running text, pemeliharaan dan perawatan gedung, taman dan jalanan umum.
+            </p>
           </div>
         </div>
       </div>
@@ -88,57 +108,97 @@
     <!-- Projects -->
     <section id="projects">
       <div class="container">
-        <div class="row text-center mb-3">
-          <div class="col mb-5">
-            <h2>Our Projects</h2>
+        <div class="row text-center mb-3 mt-5">
+          <div class="row text-center mb-3 mt-5">
+            <h2>Proyek</h2>
           </div>
         </div>
         <div class="row justify-content-between">
           <div class="col-md-4 mb-3">
-            <div class="card">
-              <img src="img/projects/1.jpg" class="card-img-top" alt="Project 1" />
+            <div class="card" style="height: 22rem">
+              <img src="img/projects/1.png" class="card-img-top" alt="Project 1" />
               <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-text">Instalasi Elektrikal Lampu & Blower 2 Kandang di Mandalawangi Farm PT. Super Unggas Jaya</p>
               </div>
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
-              <img src="img/projects/2.jpg" class="card-img-top" alt="Project 2" />
+            <div class="card" style="height: 22rem">
+              <img src="img/projects/2.png" class="card-img-top" alt="Project 2" />
               <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-text">Pemasangan CCTV di PT. Cheil Jedang Superfeed</p>
               </div>
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
-              <img src="img/projects/3.jpg" class="card-img-top" alt="Project 3" />
+            <div class="card" style="height: 22rem">
+              <img src="img/projects/3.png" class="card-img-top" alt="Project 3" />
               <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-text">Pemasangan dan instalasi pemindahan finger print di BPN Kabupaten Serang</p>
               </div>
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
-              <img src="img/projects/4.jpg" class="card-img-top" alt="Project 4" />
+            <div class="card" style="height: 22rem">
+              <img src="img/projects/4.png" class="card-img-top" alt="Project 4" />
               <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-text">Pemasangan Running Text di PT. Cheil Jedang Superfeed</p>
               </div>
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
-              <img src="img/projects/5.jpg" class="card-img-top" alt="Project 5" />
+            <div class="card" style="height: 22rem">
+              <img src="img/projects/5.png" class="card-img-top" alt="Project 5" />
               <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-text">Pengiriman Wiremesh ke PT. Artha Tehnik Abadi, Cilegon – Banten</p>
               </div>
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
-              <img src="img/projects/6.jpg" class="card-img-top" alt="Project 6" />
+            <div class="card" style="height: 22rem">
+              <img src="img/projects/6.png" class="card-img-top" alt="Project 6" />
               <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-text">Pangadaan PC di PT. JTI, Kawasan Industri Cilegon – Banten</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card" style="height: 22rem">
+              <img src="img/projects/7.png" class="card-img-top" alt="Project 7" />
+              <div class="card-body">
+                <p class="card-text">Pulling cable CCTV di PT. Mulia Farma Suci, Kawasan Industri Modern – Cikande Banten</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card" style="min-height: 22rem">
+              <img src="img/projects/8.png" class="card-img-top" alt="Project 8" />
+              <div class="card-body">
+                <p class="card-text">Pengadaan dan Instalasi Audio, paging dan mic conference di Instansi BPN Kota serang</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card" style="min-height: 22rem">
+              <img src="img/projects/9.png" class="card-img-top" alt="Project 9" />
+              <div class="card-body">
+                <p class="card-text">Pengadaan Kabel Twist UK. 4 x 10 Di Dinas DISHUKOMINFO Kabupaten Serang</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card" style="min-height: 22rem">
+              <img src="img/projects/10.png" class="card-img-top" alt="Project 10" />
+              <div class="card-body">
+                <p class="card-text">Pekerjaan Haruwat Gedung dan Fungsional di Mako Polsek Taktakan Kota Serang</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card" style="min-height: 22rem">
+              <img src="img/projects/11.png" class="card-img-top" alt="Project 11" />
+              <div class="card-body">
+                <p class="card-text">Pemasangan Camera CCTV PTZ untuk CV. Karya Pelita Abadi</p>
               </div>
             </div>
           </div>
@@ -153,11 +213,13 @@
       </svg>
     </section>
     <!-- Akhir Projecst -->
+
+    <!-- Contact -->
     <section id="contact">
       <div class="container">
-        <div class="row text-center mb-3">
+        <div class="row text-center mb-3 mt-5">
           <div class="col">
-            <h2>Contact Us</h2>
+            <h2>Hubungi Kami</h2>
           </div>
         </div>
         <div class="row justify-content-center">
@@ -177,21 +239,23 @@
               </div>
               <button type="submit" class="btn btn-primary">Kirim</button>
             </form>
+            <br />
+            <div>Jalan Raya Taktakan KM. 1 Ciolang Jaya<br />Taktakan Kota Serang<br />Banten – Indonesia 42162<br />Telp. (0254) 215277 / 087771953920</div>
           </div>
         </div>
       </div>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
-          fill="#0d6efd"
+          fill="#409dcb"
           fill-opacity="1"
-          d="M0,32L30,42.7C60,53,120,75,180,117.3C240,160,300,224,360,218.7C420,213,480,139,540,122.7C600,107,660,149,720,154.7C780,160,840,128,900,112C960,96,1020,96,1080,122.7C1140,149,1200,203,1260,192C1320,181,1380,107,1410,69.3L1440,32L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"
+          d="M0,32L30,58.7C60,85,120,139,180,149.3C240,160,300,128,360,106.7C420,85,480,75,540,85.3C600,96,660,128,720,128C780,128,840,96,900,101.3C960,107,1020,149,1080,165.3C1140,181,1200,171,1260,144C1320,117,1380,75,1410,53.3L1440,32L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"
         ></path>
       </svg>
     </section>
     <!-- Akhir Contact -->
 
     <!-- Footer -->
-    <footer class="bg-primary text-white text-center pb-5">
+    <footer class="text-white text-center pb-5" style="background-color: #409dcb">
       <p>Created and Design by <i class="bi bi-person-lines-fill text-danger"></i> <a href="https://www.instagram.com/rahidboy" class="text-white fw-bold">rahidboy</a></p>
     </footer>
     <!-- AkhirFooter -->
